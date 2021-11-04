@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <main class="main">
+        <div class="fullImgBox" id="fullImgBox">
+            <img src="" alt="fullImg" id="fullImg">
+            <i class='bx bx-x' onclick="closeFullImg();"></i>
+            <i class='bx bxs-left-arrow' id="leftArrow"></i>
+            <i class='bx bxs-right-arrow' id="rigthArrow"></i>
+
+        </div>
+
+        <h1 class="title">Galeria de imagenes</h1>
+        <section class="gallery" id="gallery">
+            <figure class="picture__gallery">
+                <img class="img__gallery" src="images/img-1.jpg" alt="img-picture" onclick="openFullImg(this.src)">
+            </figure>
+
+            <figure class="picture__gallery">
+                <img class="img__gallery" src="images/img-2.jpg" alt="img-picture" onclick="openFullImg(this.src)">
+            </figure>
+
+            <figure class="picture__gallery">
+                <img class="img__gallery" src="images/img-3.jpg" alt="img-picture" onclick="openFullImg(this.src)">
+            </figure>
+
+            <figure class="picture__gallery">
+                <img class="img__gallery" src="images/img-4.jpg" alt="img-picture" onclick="openFullImg(this.src)">
+            </figure>
+
+            <figure class="picture__gallery">
+                <img class="img__gallery" src="images/img-5.jpg" alt="img-picture" onclick="openFullImg(this.src)">
+            </figure>
+
+            <figure class="picture__gallery">
+                <img class="img__gallery" src="images/img-6.jpg" alt="img-picture" onclick="openFullImg(this.src)">
+            </figure>
+
+            <figure class="picture__gallery">
+                <img class="img__gallery" src="images/img-7.jpg" alt="img-picture" onclick="openFullImg(this.src)">
+            </figure>
+
+            <figure class="picture__gallery">
+                <img class="img__gallery" src="images/img-8.jpg" alt="img-picture" onclick="openFullImg(this.src)">
+            </figure>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
