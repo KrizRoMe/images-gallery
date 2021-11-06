@@ -70,7 +70,3 @@ const mostrarFlechas = () =>{
 const closeFullImg = () => {
     fullImgBox.classList.remove("moveX");
 }
-
-
-
-
