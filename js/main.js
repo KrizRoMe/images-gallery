@@ -9,7 +9,7 @@ const openFullImg = (reference) => {
     fullImg.src = reference;
 
     for(let i=0; i<8; i++){
-        referencia[i] = `http://127.0.0.1:5500/images/img-${i+1}.jpg`;
+        referencia[i] = `https://kriztofer3103.github.io/images-gallery/images/img-${i}.jpg`;
     }
 
     if(reference == referencia[0]){
